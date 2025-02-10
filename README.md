@@ -1,10 +1,12 @@
 # sturm_liouville
 The code receives alpha, beta and L parameters in the input and returns the first 4 lambdas as a result
 
-The Sturm-Liouville problem
-y'' + (lambda^2)y = 0
-y(0) = alpha * y'(0)
-y(L) = beta * y'(L)
+
+    The Sturm-Liouville problem
+
+    y'' + (lambda^2)y = 0
+    y(0) = alpha * y'(0)
+    y(L) = beta * y'(L)
 
     Parameters:
     alpha: float - Boundary condition at x=0: y(0) = alpha * y'(0).
